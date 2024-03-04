@@ -1,0 +1,32 @@
+.terms-policy-container {
+  margin: 7rem auto 1rem;
+  background-color: var(--white-color);
+}
+
+.terms-policy-container  {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  padding: 20px;
+  color: #333;
+}
+
+.terms-policy-container  h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #000;
+}
+
+h2 {
+  margin-top: 1.5rem;
+  font-size: 1.2em; // adjust as needed
+  color: #000; // replace with the actual heading color used in the image
+  margin-bottom: 1rem; // adjust as needed
+}
+
+.terms-policy-container  p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}

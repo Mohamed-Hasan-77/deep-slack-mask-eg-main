@@ -1,0 +1,165 @@
+.header-left-side {
+  display: flex;
+  width: 100%;
+  padding: 1.5rem 0;
+  // text-align: center !important;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  z-index: 4;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--white-color);
+  padding: 30px 20px 0px 20px;
+  // margin: 0px 20px !important;
+  border-bottom: 1px solid gray;
+  #mobile {
+    display: none;
+    cursor: pointer;
+
+    #bar {
+      display: flex;
+    }
+  }
+
+  #mobile #menu-icon {
+    color: var(--black-color);
+  }
+
+  .logo {
+    margin-left: 0rem;
+    display: flex;
+    align-items: center;
+    span {
+      color: var(--black-color);
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    li {
+      list-style: none;
+      padding: 5px 10px;
+      position: relative;
+      :hover,
+      a.active {
+        color: var(--black-color);
+        text-decoration: underline;
+      }
+      a {
+        font-size: 0.75rem;
+        font-weight: 400;
+        color: var(--gray-color);
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  .icons {
+    display: flex;
+
+    .icon {
+      width: 32px;
+      height: 32px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      :hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media (max-width: 1050px) {
+  .header-left-side {
+    justify-content: center;
+  }
+
+  .logo {
+    order: -1; // This ensures the logo is always at the center
+    margin-left: 0; // Remove the margin to truly center it
+  }
+
+  #mobile {
+    display: block !important;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+    position: fixed;
+    top: 128px;
+    left: -300%;
+    background-color: var(--white-color);
+    height: 100vh;
+    max-width: 350px;
+    box-shadow: 400px 0px 0px rgba(0, 0, 0, 0.3);
+    padding: 40px 0px 0px 0px;
+    transition: 0.3s ease-in-out;
+    z-index: 100;
+    li {
+      margin-bottom: 1rem;
+
+      width: 100%;
+      &:has(a.active) {
+        background-color: rgba(0, 0, 0, 0.1) !important;
+      }
+      :hover,
+      a.active {
+        text-decoration: none !important;
+      }
+      a {
+        font-size: 1rem !important;
+        color: var(--gray-color);
+      }
+    }
+  }
+
+  .navbar.active {
+    left: 0;
+  }
+}
+
+@media (min-width: 1400px) {
+  nav {
+    margin: 0 0px 0 0px !important;
+    padding: 30px 50px 0px 50px;
+  }
+
+  .logo {
+    margin-left: 0rem !important;
+  }
+}
+@media (max-width: 1200px) {
+  nav {
+    margin: 0 0px !important;
+  }
+
+  
+  .logo {
+    margin-left: 3rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+    margin: 0 0px !important;
+  }
+
+  .logo {
+    margin-left: 1rem !important;
+  }
+}

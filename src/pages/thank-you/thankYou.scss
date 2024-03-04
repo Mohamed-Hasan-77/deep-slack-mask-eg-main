@@ -1,0 +1,58 @@
+.order-confirmation {
+  margin: 9rem auto 1rem;
+
+  font-family: 'Arial', sans-serif;
+
+  .confirmation-header {
+    text-align: center;
+    padding: 0px 2rem;
+    .checkmark-circle {
+      // Style for the checkmark circle
+      color: var(--green-color);
+    }
+    h1 {
+      // Style for the main heading
+      font-size: 2.3rem;
+      margin: 2rem 0 1rem;
+    }
+    p {
+      // Style for the paragraph
+      margin: 1.5rem 0;
+      color: var(--gray-color);
+      font-weight: 600;
+      line-height: 1.5rem;
+    }
+  }
+
+  .contact-button {
+    // Style for the contact button
+    width: 90%;
+    text-align: center;
+    background-color: var(--green-color);
+    padding: 1rem;
+    margin: 1rem auto 4rem;
+    display: block;
+    color: var(--white-color);
+    border-radius: 10px;
+
+  }
+
+  .service-offers {
+    display: flex;
+    justify-content: space-around;
+    .offer {
+      display: flex;
+      justify-content: center;
+      // flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      p {
+        // Style for the text under icons
+        text-indent: .5rem;
+        width: fit-content;
+        text-align: center;
+        line-height: 1.5rem;
+      }
+    }
+  }
+}

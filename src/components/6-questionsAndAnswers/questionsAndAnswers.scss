@@ -1,0 +1,16 @@
+.questions-and-answers-container {
+  text-align: center;
+  h1 {
+    margin: 3rem 0;
+  }
+
+  .accordion-box {
+    padding: 2rem;
+    background-color: var(--white-color);
+    border-radius: 20px;
+  }
+}
+
+.css-t2yzmp-MuiPaper-root-MuiAccordion-root::before {
+  display: none;
+}

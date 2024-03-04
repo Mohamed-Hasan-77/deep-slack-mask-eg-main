@@ -1,0 +1,19 @@
+.details-box {
+  margin-top: 2rem;
+  background-color: var(--white-color);
+  padding: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  p {
+    margin-bottom: 1rem;
+    font-size: .9rem;
+    width: 100%;
+    line-height: 1.5rem;
+  }
+  .check {
+    margin-top: .8rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+
+  }
+}

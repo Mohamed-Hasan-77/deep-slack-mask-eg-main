@@ -1,0 +1,167 @@
+.form-container {
+  // Set the font and background properties as needed
+  background-color: var(--white-color);
+  padding: 2rem;
+  margin: 2rem 0;
+  border: 2px solid var(--black-color);
+  border-radius: 5px;
+
+  .header {
+    // Add styles for the header here
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+    color: var(--primary-color);
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      .icon {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        top: 55%;
+        transform: translateY(-50%);
+        background-color: var(--black-color);
+        color: var(--white-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4px;
+
+      }
+
+      label {
+        margin: .5rem 0;
+        span {
+          margin: 0rem 1rem !important;
+        }
+      }
+
+      input {
+        // Style your inputs
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        padding: 1rem;
+        text-indent: 3rem;
+        margin-top: 2px;
+        
+
+      }
+
+      .total {
+        margin-top: 2rem;
+        font-size: 1.4rem;
+        font-weight: bold;
+      }
+    }
+
+    .form-group.spans {
+      margin: 1rem 0;
+      span {
+        margin: .3rem 0;
+      }
+    }
+
+    .submit-area {
+      display: flex;
+      justify-content: center; 
+      gap: 2rem;
+      .submit-button, .reset-button {
+        width: 100%;
+        padding: 10px 20px;
+        background-color: var(--green-color); 
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        transition: background-color 0.3s ease;
+    
+        &:hover {
+          background-color: #45a049; 
+        }
+    
+        &:focus {
+          outline: none; 
+          box-shadow: 0 0 0 2px rgba(76,175,80, 0.5); 
+        }
+      }
+
+      .reset-button {
+        background-color: var(--primary-color);
+      }
+    }
+    
+  }
+  .alert {
+    position: fixed;
+    bottom: 20px;
+    right: 2rem;
+  }
+}
+
+
+
+
+
+.custom-radio-label {
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  display: inline-block;
+  vertical-align: middle;
+  color: var(--primary-color);
+  position: relative;
+  cursor: pointer;
+
+  span {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    line-height: 1.5;
+  }
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.custom-radio-label .circle {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 3px solid var(--black-color);
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.custom-radio-label .circle::after {
+  content: "";
+  height: 10px;
+  width: 10px;
+  background-color: var(--primary-color);
+  display: block;
+  position: absolute;
+  left: 51%;
+  top: 51%;
+  transform: translate(-50%, -50%) scale(0);
+  border-radius: 50%;
+  transition: 300ms ease-in-out 0s;
+}
+
+input[type="radio"]:checked ~ .circle::after {
+  transform: translate(-50%, -50%) scale(1);
+
+}

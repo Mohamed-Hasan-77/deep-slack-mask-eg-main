@@ -1,0 +1,66 @@
+.reviews-container {
+  h1 {
+    line-height: 3rem;
+  }
+  .slider {
+    display: flex;
+    margin: 3rem 0;
+    gap: 3rem;
+    flex-wrap: wrap;
+    .review-box {
+      text-align: center;
+      span {
+        display: block;
+        font-size: 1.4rem;
+      }
+
+      img {
+        width: 150px;
+        margin: 1rem 0;
+      }
+      p {
+        font-size: 0.8rem;
+      }
+    }
+
+    .swiper-slide .box {
+      display: flex;
+      flex-direction: column;
+      margin: 0px 0px 3rem 0;
+      img {
+        width: 90px;
+      }
+
+      span {
+        margin: 0.3rem 0;
+      }
+
+      span.review-title {
+        font-weight: bold;
+        margin-top: 1.5rem;
+      }
+
+      .review-description {
+        font-size: 0.95rem;
+        line-height: 1.2rem;
+        margin-bottom: 1rem;
+      }
+
+      .user {
+        font-weight: 600;
+        font-size: 0.8rem;
+        color: var(--gray-color);
+        margin-right: 10px;
+      }
+
+      .time {
+        font-size: 0.8rem;
+      }
+    }
+
+    .swiper-pagination-bullet-active {
+      color: #fff;
+      background: var(--green-color);
+    }
+  }
+}

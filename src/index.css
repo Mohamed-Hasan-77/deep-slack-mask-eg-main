@@ -1,0 +1,167 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #000000;
+  --white-color: white;
+  --active-color: #f2ab5a;
+  --black-color: #000000;
+  --gray-color: #000000bf;
+  --green-color: #00b67a;
+  --background-color: #f7f7f7;
+  --main-transition:.3s;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--background-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+.app-container {
+  margin: 0 250px;
+}
+
+@media (max-width: 1200px) {
+  .app-container {
+    margin: 0 80px !important;
+  }
+}
+@media (max-width: 768px) {
+  .app-container {
+    margin: 0 20px !important;
+  }
+}
+
+.announcement-bar {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  font-weight: 600;
+  padding: 10px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  z-index: 5;
+}
+
+.scrolling-text {
+  font-size: 0.75rem;
+  white-space: nowrap;
+  display: flex;
+  justify-content: space-between;
+  animation: scrollAnnouncement 20s linear infinite;
+}
+
+.scrolling-text span {
+  margin-right: 200px; /* Adjust spacing between announcements */
+  &:last-child {
+    margin-right: 0; /* Remove margin for the last span */
+  }
+}
+
+@keyframes scrollAnnouncement {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+button {
+  width: fit-content;
+  background-color: transparent;
+  color: var(--black-color);
+  font-size: 1.3rem !important;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold !important;
+  letter-spacing: 1px;
+}
+
+.MuiAccordionSummary-content {
+  font-weight: bold;
+  line-height: 1.8rem;
+}
+
+button:disabled {
+  cursor: default !important;
+}
+
+.getOfferBtn {
+  position: fixed !important;
+  bottom: 80px !important;
+  left: -80px !important;
+  z-index: 10000 !important;
+  transform: rotate(-90deg) !important;
+
+}
+
+.getOfferBtn:hover {
+  background: var(--green-color) !important;
+}
+
+#scrollButton {
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  padding: 10px;
+  width: 80%;
+  background-color: var(--green-color);
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: capitalize !important;
+  z-index: 1000;
+}
+
+
+/* Add this to your styles or CSS file */
+.submit-button {
+  /* Your other button styles go here */
+  transition: transform 0.3s ease-in-out;
+}
+
+.submit-button.loading {
+  transform: scale(0.98) ;
+}
+
+.alert {
+  z-index: 20000000 !important;
+}
+
+.footer-container {
+  background-color: var(--black-color);
+  padding: 0 250px;
+}
+
+@media (max-width: 1200px) {
+  .footer-container {
+    padding: 0 80px !important;
+  }
+}
+@media (max-width: 768px) {
+  .footer-container {
+    padding: 0 0px !important;
+  }
+}
+
+
+.css-1ox8y3v::before {
+  display: none;
+}
