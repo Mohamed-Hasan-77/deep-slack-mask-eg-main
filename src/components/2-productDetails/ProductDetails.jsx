@@ -45,14 +45,19 @@ function ProductDetails({ language }) {
           language={language}
         />
         <div className="down">
-          <div className="box plane">
-            <FaMoneyCheck size={24} />
-            <span>{t("payment_option")}</span>
-          </div>
-          <div className="box time">
-            <FaShippingFast size={24} />
-            <span>{t("free_shipping")}</span>
-          </div>
+
+
+              <div className="box plane">
+                <FaMoneyCheck size={24} />
+                <span>{t("payment_option")}</span>
+              </div>
+
+
+              <div className="box time shipFees ">
+                <FaShippingFast size={24} />
+                <span>{t("shipping_fees")}</span>
+              </div>
+
         </div>
       </div>
     </div>

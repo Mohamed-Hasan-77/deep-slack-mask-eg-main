@@ -85,20 +85,20 @@ function App() {
           </span>
         </div>
       </div>
-      {open && <PopUp handleClose={handleClose} open={open} />}
+      {/* {open && <PopUp handleClose={handleClose} open={open} />} */}
       <Header
         setLanguage={setLanguage}
         changeLanguage={changeLanguage}
         i18n={i18n}
       />
-      <Button
+      {/* <Button
         sx={{ backgroundColor: "var(--black-color)", color: "white" }}
         variant="outlined"
         onClick={handleClickOpen}
         className="getOfferBtn"
       >
         {t("getoffer")}
-      </Button>
+      </Button> */}
 
       <Routes>
         <Route path="/DeepSleepMaskEG" element={<LandingPage language={language} />} />

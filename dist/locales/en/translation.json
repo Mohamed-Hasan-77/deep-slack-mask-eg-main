@@ -33,6 +33,7 @@
   "washing_instructionsDes": "We always recommend using our washing bag and PH-neutral liquid wash detergent. Use the program delicate or hand wash at 30 degrees and don't spin dry (centrifuge). Air/hang dry and iron the pillowcase for a soft effect once dry.",
   "shipping_and_returns": "SHIPPING & RETURNS",
   "free_shipping_offer": "Free shipping on orders above 100 EGP",
+  "shipping_fees": "For Cairo, Giza, and Qalyubia, the cost is 50 Egyptian pounds. Shipping expenses for coastal areas are 60 Egyptian pounds, and shipping expenses for Upper Egypt, South Sinai, and North Sinai are 70 Egyptian pounds.",
   "shipping_times_message": "Please allow us the following shipping times",
   "standard_shipping_info": "Standard shipping (7-12 days) 12.95 EGP",
   "express_shipping_info": "Express shipping (6-8 days) 17.95 EGP",
@@ -76,12 +77,10 @@
   "cotton_vs_silk_question": "What is the biggest difference between cotton and silk?",
   "cotton_vs_silk_info": "Most people sleep on a cotton pillowcase, but did you know that after just 3 days there are as many bacteria on your pillowcase as there are on a toilet seat? Our silk pillowcases are infused with silver ions, eliminating 99.7% of all bacteria. Silk is also naturally super soft, cooling, and hypoallergenic.",
   "preview_button": "Preview",
-
   "========================": "===============================",
   "===========================": "================================",
   "==============================": "================================",
   "=================================": "================================",
-
   "place_order_details_request": "Order Details",
   "name_field": "Name",
   "phone_number_field": "Phone Number",
@@ -106,7 +105,6 @@
   "Terms of Service": "Terms of Service",
   "Privacy Policy": "Privacy Policy",
   "Technical support Hours": "Technical support 24 / 7",
-
   "RefundPolicyTitle": "Refund Policy",
   "ReturnAndRefundPolicyTitle": "Policy on Returns and Refunds",
   "RefundPolicyDescription": "At Smarketing LLC, we pride ourselves on the quality of our products and our commitment to customer satisfaction. Should you find yourself not entirely pleased with your purchase, we want to clarify that we do not process refunds or accept returns. However, we are pleased to provide an easy replacement option, provided that the limited warranty was included in your order.",
@@ -115,7 +113,6 @@
   "ReplacementProductDescription": "Under these circumstances, we will quickly arrange to send you a replacement product at no additional charge.",
   "SmoothProcessDescription": "To ensure a seamless and efficient replacement procedure, please contact our customer support at info@smarketing.llc. Our team is dedicated to assisting you and making sure your experience with us is outstanding.",
   "AppreciationMessage": "We appreciate your choice to shop with Smarketing LLC and eagerly look forward to serving you again.",
-
   "ShippingPolicy": "Shipping Policy",
   "ThankYouMessageShippingPolicy": "We appreciate your decision to shop with Smarketing LLC. Our goal is to provide an outstanding shopping experience. To help you understand our delivery process, we encourage you to review our shipping policy.",
   "ProcessingTimeTitle": "Processing Time",
@@ -134,14 +131,12 @@
   "MissingOrDamagedPackagesDescription": "Should your package be lost or arrive damaged, contact our customer support immediately. In cases of shipping or delivery errors, we'll work swiftly to rectify the situation and provide a fitting solution. Your satisfaction is paramount at Smarketing LLC. For any queries or additional assistance, our customer support team is available at info@smarketing.llc to assist you.",
   "HappyShoppingMessage": "Enjoy your shopping experience and thank you for being a cherished customer!",
   "TeamSignature": "The Smarketing LLC Team",
-
   "Terms of Service Title": "Terms of Service",
   "Operated By": "This website is operated by Smarketing LLC. Throughout the site, the terms “we”, “us”, and “our” refer to Smarketing LLC. Smarketing LLC offers this website, including all information, tools, and services available from this site to you, the user, conditioned upon your acceptance of all terms, conditions, policies, and notices stated here.",
   "Engagement": "By visiting our site and/or purchasing something from us, you engage in our “Service” and agree to be bound by the following terms and conditions (“Terms of Service”, “Terms”), including those additional terms and conditions and policies referenced herein and/or available by hyperlink. These Terms of Service apply to all users of the site, including without limitation users who are browsers, vendors, customers, merchants, and/or contributors of content.",
   "Reading Terms": "Please read these Terms of Service carefully before accessing or using our website. By accessing or using any part of the site, you agree to be bound by these Terms of Service. If you do not agree to all the terms and conditions of this agreement, then you may not access the website or use any services. If these Terms of Service are considered an offer, acceptance is expressly limited to these Terms of Service.",
   "New Features": "Any new features or tools which are added to the current store shall also be subject to the Terms of Service. You can review the most current version of the Terms of Service at any time on this page. We reserve the right to update, change or replace any part of these Terms of Service by posting updates and/or changes to our website. It is your responsibility to check this page periodically for changes. Your continued use of or access to the website following the posting of any changes constitutes acceptance of those changes.",
   "Shopify Hosting": "Our store is hosted on Shopify Inc. They provide us with the online e-commerce platform that allows us to sell our products and services to you.",
-
   "SECTION_1_TITLE": "SECTION 1 - ONLINE STORE TERMS",
   "SECTION_1_P1": "By accepting these Terms of Service, you affirm that you are either the age of majority in your state or province of residence, or you have given us consent to allow any of your minor dependents to use this site.",
   "SECTION_1_P2": "You must not use our products for any unlawful or unauthorized purpose, and you agree not to violate any laws in your jurisdiction (including, but not limited to, copyright laws) when using the Service.",
@@ -156,7 +151,6 @@
   "SECTION_3_TITLE": "SECTION 3 - ACCURACY, COMPLETENESS, AND TIMELINESS OF INFORMATION",
   "SECTION_3_P1": "We are not responsible if the information made available on this site is not accurate, complete, or current. The material on this site is provided for general information only and should not be relied upon or used as the sole basis for making decisions without consulting primary, more accurate, more complete, or more timely sources of information. Any reliance on the material on this site is at your own risk.",
   "SECTION_3_P2": "This site may contain certain historical information. Historical information, by its nature, is not current and is provided for your reference only. We reserve the right to modify the contents of this site at any time, but we have no obligation to update any information on our site. You agree that it is your responsibility to monitor changes to our site.",
-
   "Section4Title": "SECTION 4 - MODIFICATIONS TO THE SERVICE AND PRICES",
   "Section4Content": "Prices for our products are subject to change without notice. We reserve the right at any time to modify or discontinue the Service (or any part or content thereof) without notice at any time. We shall not be liable to you or to any third-party for any modification, price change, suspension, or discontinuance of the Service.",
   "Section5Title": "SECTION 5 - PRODUCTS OR SERVICES (if applicable)",
@@ -167,7 +161,6 @@
   "Section6Content": "We reserve the right to refuse any order you place with us. We may, in our sole discretion, limit or cancel quantities purchased per person, per household, or per order. These restrictions may include orders placed by or under the same customer account, the same credit card, and/or orders that use the same billing and/or shipping address. In the event that we make a change to or cancel an order, we may attempt to notify you by contacting the e-mail and/or billing address/phone number provided at the time the order was made. We reserve the right to limit or prohibit orders that, in our sole judgment, appear to be placed by dealers, resellers, or distributors.",
   "AccountInformationAgreement": "You agree to provide current, complete, and accurate purchase and account information for all purchases made at our store. You agree to promptly update your account and other information, including your email address and credit card numbers and expiration dates, so that we can complete your transactions and contact you as needed.",
   "RefundPolicyNote": "For more details, please review our Refund Policy:",
-
   "Section7Title": "SECTION 7 - OPTIONAL TOOLS",
   "Section7Content1": "We may provide you with access to third-party tools over which we neither monitor nor have any control nor input.",
   "Section7Content2": "You acknowledge and agree that we provide access to such tools \"as is\" and \"as available\" without any warranties, representations, or conditions of any kind and without any endorsement. We shall have no liability whatsoever arising from or relating to your use of optional third-party tools.",
@@ -210,19 +203,16 @@
   "SECTION_18_P1": "These Terms of Service and any separate agreements through which we provide you Services are to be interpreted in line with the laws of the United States.",
   "SECTION_19_TITLE": "SECTION 19 - MODIFICATION OF TERMS",
   "SECTION_19_P1": "The latest version of the Terms of Service is available for review on this page at any time. Smarketing LLC reserves the right to modify any part of these Terms of Service at our discretion by updating our website. It is your duty to check our website periodically for any such changes. Your continued use of or access to our site or Services after any amendments signifies acceptance of the new Terms.",
-
   "Privacy_Policy_Title": "Privacy policy",
   "Privacy_Policy_P1": "This Privacy Policy outlines how Smarketing LLC (referred to as the 'Site', 'we', 'us', or 'our') collects, uses, and discloses your personal information when you visit, use our services, or make a purchase from smarketingllc.com (the 'Site') or otherwise engage in communication with us (collectively, the 'Services'). When we mention 'you' and 'your', it refers to you as the user of the Services, whether you are a customer, website visitor, or any individual whose information we have collected in accordance with this Privacy Policy.",
   "Privacy_Policy_P2": "Please read this Privacy Policy thoroughly. By utilizing and accessing any of the Services, you consent to the collection, use, and disclosure of your information as detailed in this Privacy Policy. If you do not consent to this Privacy Policy, please refrain from using or accessing any of the Services.",
   "Privacy_Policy_Changes_Title": "Changes to This Privacy Policy",
   "Privacy_Policy_Changes_P1": "We reserve the right to modify this Privacy Policy periodically to reflect any changes in our practices or as required by legal, operational, or regulatory reasons. We will post the revised Privacy Policy on the Site, update the 'Last updated' date, and perform any additional actions required by applicable law.",
-
   "COLLECTION_TITLE": "How We Collect and Use Your Personal Information",
   "COLLECTION_P1": "To deliver the Services, we collect and have collected over the past 12 months personal information about you from a variety of sources, as set out below. The information that we collect and use varies depending on how you interact with us.",
   "COLLECTION_P2": "In addition to the specific uses set out below, we may use information we collect about you to communicate with you, provide the Services, comply with any applicable legal obligations, enforce any applicable terms of service, and to protect or defend the Services, our rights, and the rights of our users or others.",
   "COLLECTION_SUBTITLE": "What Personal Information We Collect",
   "COLLECTION_P3": "The types of personal information we obtain about you depends on how you interact with our Site and use our Services. When we use the term 'personal information,' we are referring to information that identifies, relates to, describes, or can be associated with you. The following sections describe the categories and specific types of personal information we collect.",
-
   "Info_Collection_Title": "Information We Collect Directly from You",
   "Info_Collection_Intro": "Information that you directly submit to us through our Services may include:",
   "Contact_Details": "Basic contact details including your name, address, phone number, and email.",
@@ -233,19 +223,16 @@
   "Info_Collection_Features_Note": "Some features of the Services may require you to directly provide us with certain information about yourself. You may elect not to provide this information, but doing so may prevent you from using or accessing these features.",
   "Cookies_Collection_Title": "Information We Collect through Cookies",
   "Cookies_Collection_Description": "We and our service providers may collect certain information about your use of our services through automated means, such as cookies, often referred to as 'Usage Data'. This may include details like your IP address, device information, and browsing behavior on our Site.",
-
   "Third_Party_Info_Title": "Information We Obtain from Third Parties",
   "Third_Party_Info_Intro": "Finally, we may obtain information about you from third parties, including vendors and service providers who may collect information on our behalf, such as:",
   "Support_Companies": "Companies that support our Site and Services, such as Shopify.",
   "Payment_Processors": "Our payment processors, who collect payment information (e.g., bank account, credit or debit card information, billing addresses) to process your payments and fulfill your orders.",
   "Interaction_Tracking": "When you visit our Site, open or click on emails we send you, or interact with our Services or advertisements, we, or third parties we work with, may automatically collect certain information using online tracking technologies such as pixels, web beacons, software developer kits, and cookies.",
   "Third_Party_Info_Compliance": "Any information we obtain from third parties will be treated in accordance with this Privacy Policy. We are not responsible for the accuracy of the information provided to us by third parties nor for their policies or practices. For more detailed information, see the section below, Third-Party Websites and Links.",
-
   "Use_Personal_Info_Title": "How We Use Your Personal Information",
   "Use_Personal_Info_P1": "Providing Products and Services: We use your personal information to provide you with the Services in order to perform our contract with you, including to process your payments, fulfill your orders, send notifications to you related to your account, and manage transactions such as returns, exchanges, and reviews.",
   "Use_Personal_Info_P2": "Marketing and Advertising: We use your personal information for marketing and promotional purposes, such as to send marketing, advertising, and promotional communications by email, text message, or postal mail, and to show you advertisements for products or services on our Site and other websites.",
   "Use_Personal_Info_P3": "Security and Fraud Prevention: We use your personal information to detect, investigate, or take action regarding possible fraudulent, illegal, or malicious activity. You are responsible for keeping your account credentials safe, and we strongly recommend that you do not share your user information.",
-
   "Disclosure_Title": "How We Disclose Personal Information",
   "Disclosure_Intro": "In certain circumstances, Smarketing LLC may disclose your personal information to third parties for legitimate purposes in accordance with this Privacy Policy. Such circumstances may include:",
   "Vendors_Services": "Engaging with vendors or other third parties who perform services on our behalf, such as management, payment processing, data analytics, customer support, and logistics.",
@@ -253,17 +240,14 @@
   "User_Consent": "When you directly, request, or give consent to the disclosure of your information to third parties, such as when using social media widgets or login integrations.",
   "Affiliates_Corporate_Group": "Working with our affiliates or within our corporate group to maintain a successful business operation.",
   "Business_Transactions": "In the event of a business transaction, such as a merger or bankruptcy, to comply with legal obligations, respond to subpoenas, search warrants, or other requests, or to protect and enforce our legal rights and those of our users.",
-
   "User_Generated_Content_Title": "User Generated Content",
   "User_Generated_Content_P1": "Smarketing LLC's Services may allow you to post product reviews and other user-generated content. If you opt to submit user-generated content to any public area of the Services, this content will be accessible to anyone.",
   "User_Generated_Content_P2": "We do not control who will have access to the information you decide to make public, and we cannot ensure that parties who have access to such information will respect your privacy or keep it secure. We are not responsible for the privacy or security of any information that you make publicly available, or for the accuracy, use, or misuse of any information that you disclose or receive from third parties.",
   "Third_Party_Websites_Links_Title": "Third Party Websites and Links",
   "Third_Party_Websites_Links_P1": "Our Site may provide links to websites or other online platforms operated by third parties. If you follow links to sites not affiliated or controlled by us, you should review their privacy and security policies and other terms and conditions. We do not guarantee and are not responsible for the privacy or security of such sites, including the responsibility, completeness, or reliability of information found on these sites. Information you provide on public or semi-public venues, including information shared on third-party social networking platforms, may also be viewable by other users of the Services and/or users of those third-party platforms without limitation as to its use by us or by any third party. Our inclusion of such links does not, by itself, imply an endorsement of the content found on those sites or of their operators.",
-
   "Security_Retention_Title": "Security and Retention of Your Information",
   "Security_Retention_P1": "Please be aware that no security measures are perfect or impenetrable, and we cannot guarantee 'perfect security.' In addition, any information you send to Smarketing LLC may not be secure while in transit. We recommend that you do not use unsecure channels to communicate sensitive or confidential information to us.",
   "Security_Retention_P2": "The duration for which we retain your personal information depends on various factors, such as whether we need the information to maintain your account, provide the Services, comply with legal obligations, resolve disputes, or enforce other applicable contracts and policies.",
-
   "Rights_And_Choices_Title": "Your Rights and Choices",
   "Rights_And_Choices_Intro": "Depending on where you live, you may have some or all of the rights listed below in relation to your personal information. However, these rights are not absolute, may apply only in certain circumstances, and, in certain cases, we may decline your request as permitted by law.",
   "Right_To_Access_Know": "You may have a right to request access to personal information that we hold about you, including details relating to the ways in which we use and share your information.",
@@ -271,7 +255,6 @@
   "Right_To_Correct": "You may have a right to request that we correct inaccurate personal information we maintain about you.",
   "Right_To_Portability": "You may have a right to receive a copy of the personal information we hold about you and to request that we transfer it to a third party, in certain circumstances and with certain exceptions.",
   "Right_To_Opt_Out_Of_Sale_Or_Sharing": "You may have a right to direct us not to 'sell' or 'share' your personal information or to opt out of the processing of your personal information for purposes considered to be 'targeted advertising', as defined in applicable privacy laws.",
-
   "Rights_And_Processing_Title": "Your Rights and Processing of Personal Information",
   "Restriction_Of_Processing": "You may have the right to ask us to stop or restrict our processing of personal information.",
   "Withdrawal_Of_Consent": "Where we rely on consent to process your personal information, you may have the right to withdraw this consent.",
@@ -281,25 +264,21 @@
   "Non_Discrimination_Statement": "We will not discriminate against you for exercising any of these rights. We may need to collect information from you to verify your identity, such as your email address or account information, before providing a substantive response to the request.",
   "Designation_Of_Agent": "You may designate an authorized agent to make requests on your behalf to exercise your rights. Before accepting such a request from an agent, we will require that the agent provide proof you have authorized them to act on your behalf, and we may need you to verify your identity directly with us.",
   "Timely_Response_Assurance": "We will respond to your request in a timely manner as required under applicable law.",
-
   "Complaints_Title": "Complaints",
   "Complaints_Content": "If you have complaints about how we process your personal information, please contact us using the contact details provided below. If you are not satisfied with our response to your complaint, depending on where you live you may have the right to appeal our decision by contacting us using the contact details set out below, or lodge your complaint with your local data protection authority.",
   "International_Users_Title": "International Users",
   "International_Users_Content": "Please note that we may transfer, store, and process your personal information outside the country you live in, including the United States. Your personal information is also processed by staff and third party service providers and partners in these countries. If we transfer your personal information out of Europe, we will rely on recognized transfer mechanisms like the European Commission's Standard Contractual Clauses, or any equivalent contracts issued by the relevant competent authority of the UK, as relevant, unless the data transfer is to a country that has been determined to provide an adequate level of protection.",
   "Contact_Title": "Contact",
   "Contact_Content": "Should you have any questions about our privacy practices or this Privacy Policy, or if you would like to exercise any of the rights available to you, please call or email us at info@smarketing.llc.",
-
   "SuccessMessage": "Your order has been successfully!",
   "ThankYouMessage": "Thank you for purchasing our products. Your order has been successfully received and we will process it as soon as possible.",
   "OrderNumber": "Order number",
   "ShippingConfirmation": "A shipping confirmation will be sent to you via WhatsApp",
-
   "ContactDirectly": "Contact Directly",
   "CashOnDelivery": "Cash On Delivery",
   "FastDelivery": "Fast Delivery",
   "FourteenDayGuarantee": "14-day Guarantee",
   "TwentyFourSevenSupport": "24/7 Support",
-
   "FirstTimeDiscount": "Get 10% discount for the first time",
   "WhatsAppNumber": "WhatsApp Number",
   "send": "Send",

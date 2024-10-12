@@ -163,7 +163,7 @@ function AccordionComponent() {
                 marginBottom: "1.5rem",
               }}
             >
-              {t("free_shipping_offer")}
+              {t("shipping_fees")}
             </p>
             <span
               style={{

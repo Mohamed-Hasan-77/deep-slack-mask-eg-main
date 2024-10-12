@@ -19,8 +19,7 @@ function ThankYou() {
 
   function handleWhatsAppClick() {
     // Replace '123456789' with the actual WhatsApp number
-    const phoneNumber = '+971557480115';
-    
+    const phoneNumber = '+2001555501137';
     // Open the WhatsApp chat in a new window or tab
     window.open(`https://wa.me/${phoneNumber}`, '_blank');
   }

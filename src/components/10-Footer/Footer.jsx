@@ -93,7 +93,7 @@ function Footer({ language }) {
           </div>
           <div className="info">
             <FaPhoneSquareAlt className="i" />
-            <div className="numbers">+971 55 748 0115</div>
+            <div className="numbers">+20 01555501137</div>
           </div>
         </div>
       </div>
